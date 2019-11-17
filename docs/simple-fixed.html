@@ -34,7 +34,7 @@
     }
 
     .content {
-      padding: 70px 10px;
+      padding: 70px 10px 80px 10px;
     }
 
     p {
@@ -45,12 +45,17 @@
     footer {
       background: rgba(181, 245, 236, .95);
       bottom: 0;
-      height: 70px;
+      height: 80px;
       left: 0;
       line-height: 25px;
       position: fixed;
       right: 0;
       text-align: center;
+    }
+
+    .page-link{
+      display: inline-block;
+      padding: 0 10px;
     }
   </style>
 
@@ -265,6 +270,12 @@
   <div>页尾的悬浮层</div>
   <div>
     <input class="nav-input"/>
+  </div>
+  <div>
+    <a href="?p=1" class="page-link"> 1 </a>
+    <a href="?p=2" class="page-link"> 2 </a>
+    <a href="?p=3" class="page-link"> 3 </a>
+    <a href="?p=4" class="page-link"> 4 </a>
   </div>
 </footer>
 </body>
