@@ -1,0 +1,25 @@
+{
+  "name": "position_fixed_demo",
+  "version": "0.0.1",
+  "description": "这个项目展示在 ios 上使用 position: fixed 的问题",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgfg163/position_fixed_demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fgfg163/position_fixed_demo/issues"
+  },
+  "homepage": "https://github.com/fgfg163/position_fixed_demo#readme",
+  "dependencies": {
+    "html-pages": "^3.1.0"
+  }
+}
