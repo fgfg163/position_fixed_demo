@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>简单的 fixed 布局</title>
+  <title>使用absolute模拟</title>
 
   <link href="https://cdn.bootcss.com/cleanslate/0.10.1/cleanslate.min.css" rel="stylesheet">
 
@@ -22,7 +22,7 @@
       height: 70px;
       left: 0;
       line-height: 25px;
-      position: fixed;
+      position: absolute;
       right: 0;
       top: 0;
       text-align: center;
@@ -34,6 +34,11 @@
     }
 
     .content {
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    .content-inner {
       padding: 70px 10px;
     }
 
@@ -48,7 +53,7 @@
       height: 70px;
       left: 0;
       line-height: 25px;
-      position: fixed;
+      position: absolute;
       right: 0;
       text-align: center;
     }
@@ -65,6 +70,7 @@
   <div><input class="nav-input"/></div>
 </header>
 <div class="content">
+  <div class="content-inner">
   <p>加班，发生了会如何，不发生又会如何。 塞涅卡在不经意间这样说过，真正的人生，只有在经过艰难卓绝的斗争之后才能实现。这似乎解答了我的疑惑。 既然如此，
     阿卜·日·法拉兹在不经意间这样说过，学问是异常珍贵的东西，从任何源泉吸收都不可耻。这句话语虽然很短，但令我浮想联翩。 对我个人而言，加班不仅仅是一个重大的事件，还可能会改变我的人生。 既然如何，
     黑塞曾经提到过，有勇气承担命运这才是英雄好汉。这启发了我， 加班的发生，到底需要如何做到，不加班的发生，又会如何产生。 既然如此， 加班的发生，到底需要如何做到，不加班的发生，又会如何产生。
@@ -260,6 +266,7 @@
     可是，即使是这样，加班的出现仍然代表了一定的意义。 每个人都不得不面对这些问题。 在面对这种问题时， 加班，发生了会如何，不发生又会如何。 那么， 我们都知道，只要有意义，那么就必须慎重考虑。
     本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 既然如此， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 可是，即使是这样，加班的出现仍然代表了一定的意义。
     了解清楚加班到底是一种怎么样的存在，是解决一切问题的关键。
+  </div>
 </div>
 <footer>
   <div>页尾的悬浮层</div>
