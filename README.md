@@ -8,3 +8,6 @@ npm install
 
 npx html-pages ./docs -p 3000 -o
 ```
+
+在线查看
+访问 https://fgfg163.github.io/position_fixed_demo/ 
